@@ -146,60 +146,60 @@ console.log('this is a heading', sum)
 
 // ***এরে আনার জন্য কাজ বা নামবার আনার জন্য কাজ
 
-function Rabbi(Nambar){
-    for(Rakib of Nambar){
-        console.log(Rakib)
-    }
+// function Rabbi(Nambar){
+//     for(Rakib of Nambar){
+//         console.log(Rakib)
+//     }
 
-}
-const Nambar =[1, 2, 3, 4, 5, 6];
-Rabbi(Nambar);
+// }
+// const Nambar =[1, 2, 3, 4, 5, 6];
+// Rabbi(Nambar);
 
 // ********************
 
 // **** জোর সংখ্যা খজার জন্য এরে বা for ****
 
-function Rayhan(Rabbi){
-    for (Rafi of Rabbi){
-        if(Rafi %2===0)
-        console.log(Rafi)
-    }
-}
-const Rifat =[20, 25, 30, 35, 40, 50, 75, 99];
-Rayhan(Rifat);
+// function Rayhan(Rabbi){
+//     for (Rafi of Rabbi){
+//         if(Rafi %2===0)
+//         console.log(Rafi)
+//     }
+// }
+// const Rifat =[20, 25, 30, 35, 40, 50, 75, 99];
+// Rayhan(Rifat);
 
 // **************************
 
 // ** বিজোর সংখ্যা খজার জন্য এরে বা for*/
 
-function Najim(Muhid){
-    for(Chabbir of Muhid){
-        if(Chabbir %2===1){
-            console.log(Chabbir)
-        }
-    }
-}
-const Rabbi =[5,15,20, 10, 4, 6, 22, 7, 47];
-Najim(Rabbi);
+// function Najim(Muhid){
+//     for(Chabbir of Muhid){
+//         if(Chabbir %2===1){
+//             console.log(Chabbir)
+//         }
+//     }
+// }
+// const Rabbi =[5,15,20, 10, 4, 6, 22, 7, 47];
+// Najim(Rabbi);
 
 // ******************
 
 // **যদি জোর অথবা বিজোড় সংখার জগফল বের করতে চাই তাহলে "রিতান-" ব্যাবহার করতে হবে ***/
 
-function Rabbi(Nambar){
-    let from =0;
-    for(Rakib of Nambar){
-        if(Rakib %2 ===0){
-            console.log(Rakib);
-            total =from + Rakib;
-        }
+// function Rabbi(Nambar){
+//     let from =0;
+//     for(Rakib of Nambar){
+//         if(Rakib %2 ===0){
+//             console.log(Rakib);
+//             total =from + Rakib;
+//         }
 
-    }
-    return total;
-}
-const Nambar=[10, 20, 23, 25, 27, 99, 100, 20]
-const sum = Rabbi(Nambar);
-console.log('This is a total', sum);
+//     }
+//     return total;
+// }
+// const Nambar=[10, 20, 23, 25, 27, 99, 100, 20]
+// const sum = Rabbi(Nambar);
+// console.log('This is a total', sum);
 
 
 // -------------------------------------------------------------------------------------------------------;
